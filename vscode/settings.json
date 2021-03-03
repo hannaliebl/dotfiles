@@ -66,5 +66,9 @@
   },
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
-  "C_Cpp.default.compilerPath": ""
+  "C_Cpp.default.compilerPath": "",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "settingsSync.ignoredExtensions": [
+  
+  ]
 }
