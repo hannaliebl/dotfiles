@@ -10,6 +10,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.suggestSelection": "recentlyUsed"
   },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
   "files.exclude": {
     "USE_GITIGNORE": true
   },
@@ -55,9 +58,7 @@
   "breadcrumbs.enabled": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "auto-rename-tag.activationOnLanguage": [
-    "*"
-  ],
+  "auto-rename-tag.activationOnLanguage": ["*"],
   "diffEditor.renderSideBySide": false,
   "[c]": {
     "editor.wordBasedSuggestions": false,
@@ -67,8 +68,5 @@
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "C_Cpp.default.compilerPath": "",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "settingsSync.ignoredExtensions": [
-  
-  ]
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
