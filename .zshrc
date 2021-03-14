@@ -9,8 +9,8 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hanna/.oh-my-zsh"
-export GOPATH="/Users/hanna/code/go"
+export ZSH=$HOME/.oh-my-zsh
+export GOPATH=$HOME/code/go
 export PATH=$(go env GOPATH)/bin:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
