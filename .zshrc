@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias zshconfig="code ~/.zshrc"
-alias simpleserve='python -m SimpleHTTPServer'
+alias simpleserve="python -m SimpleHTTPServer"
 
 eval "$(nodenv init -)"
 
